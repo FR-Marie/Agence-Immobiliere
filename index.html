@@ -39,21 +39,21 @@
 
       <div class="row text-center mt-5">
 
-        <h1 class="HSH-h1 mt-5">Home Sweet Home</h1>
-        <p class="slogan"> Votre agence immobilière de biens d'exceptions</p>
+        <h1 class="HSH-h1 animate__animated animate__fadeIn">Home Sweet Home</h1>
+        <p class="slogan animate__animated animate__fadeInDown"> Votre agence immobilière de biens d'exceptions</p>
 
       </div>
 
         <ul class="nav justify-content-center mt-5">
 
             <li class="nav-item text-center mx-5 p-3">
-              <i class="fa-solid fa-users fa-3x" style="text-shadow: 2px 2px 3px black;"></i>
-              <a class="nav-link active" aria-current="page" href="#">Qui sommes-nous?</a>
+              <i class="fa-solid fa-users fa-3x animate__animated animate__fadeInLeft" style="text-shadow: 2px 2px 3px black;"></i>
+              <a class="nav-link active animate__animated animate__fadeIn" aria-current="page" href="#">Qui sommes-nous?</a>
             </li>
 
             <li class="nav-item dropdown text-center mx-5 p-3">
-              <i class="fa-solid fa-location-dot fa-3x" style="text-shadow: 2px 2px 3px black;"></i>
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-location-dot fa-3x animate__animated animate__fadeInDown" style="text-shadow: 2px 2px 3px black;"></i>
+              <a class="nav-link dropdown-toggle animate__animated animate__fadeIn" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Nos agences en France
               </a>
           
@@ -73,8 +73,8 @@
             </li>
 
               <li class="nav-item text-center mx-5 p-3">
-                <i class="fa-solid fa-address-book fa-3x" style="text-shadow: 2px 2px 3px black;"></i>
-                <a class="nav-link" href="#">Nous contacter</a>
+                <i class="fa-solid fa-address-book fa-3x animate__animated animate__fadeInRight" style="text-shadow: 2px 2px 3px black;"></i>
+                <a class="nav-link animate__animated animate__fadeIn" href="#">Nous contacter</a>
               </li>
         
         </ul>
@@ -82,24 +82,25 @@
     </div>
 
 
+    <!---------SECTION 1----------->
+
   <section id="section-1" class="container-fluid mt-5 pt-5">
 
-    <div class="text-center">
-      <h2>Nos nouveautés</h2>
-    </div>
+      <h2 class="HSH-h2 text-center text-decoration-underline animate__animated animate__bounceIn">Nos nouveautés</h2>
+
 
     <div class="row justify-content-center mt-5">
 
       <!--------MAISON 1--------->
-      <div class="col-2 p-4 mx-3">
+      <div class="col-lg-2 p-4 mx-3 col-sm-9 text-center">
       
-        <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
+        <div id="carouselExampleIndicators1" class="carousel slide" data-interval="false">
           <div class="carousel-indicators pb-4">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
 
           <div class="carousel-inner w-100 h-100 p-4">
@@ -120,11 +121,11 @@
             </div>
           </div>
 
-          <button class="carousel-control-prev p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <button class="carousel-control-prev p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <button class="carousel-control-next p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -133,20 +134,32 @@
         <div id="ville-prix" class="d-flex justify-content-between px-4">
           <h4 class="ville text-dark">Bourges (18000)</h4>
           <p class="prix text-danger">750 000€</p>
-        </div>  
+        </div>
+
+        <div class="description">
+          <p class="description text-start p-4">
+            <strong>Pavillon de 1902</strong> <br>
+            Surface habitable: 190m² <br>
+            Terrain: 3200m² <br>
+            Garage: 50m² <br>
+            Annexes: 170m²
+          </p>
+          </div>
+  
+          <button class="en-savoir-plus p-1 rounded-2 px-3" href="#" type="button">Détails</button>
 
       </div>
 
       <!--------MAISON 2--------->
-      <div class="col-2 p-4 mx-3">
+      <div class="col-lg-2 p-4 mx-3 col-sm-9 text-center">
         
-        <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
+        <div id="carouselExampleIndicators2" class="carousel slide" data-interval="false">
           <div class="carousel-indicators pb-4">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
 
           <div class="carousel-inner w-100 h-100 p-4">
@@ -167,11 +180,11 @@
             </div>
           </div>
 
-          <button class="carousel-control-prev p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <button class="carousel-control-prev p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <button class="carousel-control-next p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -182,18 +195,30 @@
           <p class="prix text-danger">800 000€</p>
         </div>
 
+        <div class="description">
+          <p class="description text-start p-4">
+            <strong>Maison de 1975</strong> <br>
+            Surface habitable: 190m² <br>
+            Terrain: 3200m² <br>
+            Garage: 50m² <br>
+            Annexes: 170m²
+          </p>
+          </div>
+  
+          <button class="en-savoir-plus p-1 rounded-2 px-3" href="#" type="button">Détails</button>
+
       </div>
 
       <!--------MAISON 3--------->
-      <div class="col-2 p-4 mx-3">
+      <div class="col-lg-2 p-4 mx-3 col-sm-9 text-center">
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
+        <div id="carouselExampleIndicators3" class="carousel slide" data-interval="false">
           <div class="carousel-indicators pb-4">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
 
           <div class="carousel-inner w-100 h-100 p-4">
@@ -214,11 +239,11 @@
             </div>
           </div>
 
-          <button class="carousel-control-prev p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <button class="carousel-control-prev p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <button class="carousel-control-next p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -229,18 +254,30 @@
           <p class="prix text-danger">435 000€</p>
         </div>
 
+        <div class="description">
+          <p class="description text-start p-4">
+            <strong>Villa de 2002</strong> <br>
+            Surface habitable: 190m² <br>
+            Terrain: 3200m² <br>
+            Garage: 50m² <br>
+            Annexes: 170m²
+          </p>
+          </div>
+  
+          <button class="en-savoir-plus p-1 rounded-2 px-3" href="#" type="button">Détails</button>
+
       </div>
 
       <!--------MAISON 4--------->
-      <div class="col-2 p-4 mx-3">
+      <div class="col-lg-2 p-4 mx-3 col-sm-9 text-center">
         
-        <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
+        <div id="carouselExampleIndicators4" class="carousel slide" data-interval="false">
           <div class="carousel-indicators pb-4">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
 
           <div class="carousel-inner w-100 h-100 p-4">
@@ -261,11 +298,11 @@
             </div>
           </div>
 
-          <button class="carousel-control-prev p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <button class="carousel-control-prev p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <button class="carousel-control-next p-1 m-4" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -276,6 +313,17 @@
           <p class="prix text-danger">375 500€</p>
         </div>
 
+        <div class="description">
+          <p class="description text-start p-4">
+            <strong>Domaine de 1880</strong> <br>
+            Surface habitable: 190m² <br>
+            Terrain: 3200m² <br>
+            Garage: 50m² <br>
+            Annexes: 170m²
+          </p>
+          </div>
+  
+          <button class="en-savoir-plus p-1 rounded-2 px-3" href="#" type="button">Détails</button>
         
 
       </div>
@@ -283,6 +331,23 @@
     </div>
   </section>
 
+  <!-------SECTION 2--------->
+
+  <section id="section2" class="container-fluid mt-5 pt-5">
+
+    <h2 class="HSH-h2 text-center text-decoration-underline animate__animated animate__bounceIn">Nos dernières ventes</h2>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-9 bg-info col-sm-6 bg-success">bandeau d'images</div>
+    </div>
     
+  </section>
+
 </body>
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
 </html>

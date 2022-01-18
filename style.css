@@ -1,26 +1,23 @@
 html, body{
     box-sizing: border-box;
-    background-image: url(img/background\ HSH.png);
-    background-position: center;
+    background-image: url(img/background\ HSH\ 2.png);
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
    
-}
-.logo img{
-    height: 160px;
 }
 
 /*****************NAV BAR*****************/
 
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
+    font-size: 70px;
     color: rgb(196, 10, 10);
     text-shadow: 1px 1px 3px black;
 }
 .slogan{
     font-family: 'Pacifico', cursive;
-    font-size: 20px;
+    font-size: 25px;
     padding-left: 130px;
 }
 
@@ -67,9 +64,15 @@ h2{
 .prix{
     font-weight: bold;
 }
-.col-2{
+.col-lg-2, .col-sm-9{
     box-shadow: 2px 2px 5px black;
+    border-radius: 5px 40px 0 0;
 }
-.col-2:hover{
-    transform: scale(1.1);
+strong{
+    color: rgb(196, 10, 10);
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+.description{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
