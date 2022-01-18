@@ -1,14 +1,13 @@
 html, body{
-    margin: 0;
-    padding: 0;
-}
-body{
+    box-sizing: border-box;
     background-image: url(img/background\ HSH.png);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+   
 }
 .logo img{
-    height: 170px;
+    height: 160px;
 }
 
 /*****************NAV BAR*****************/
@@ -16,7 +15,7 @@ body{
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
-    color: #dc3545;
+    color: rgb(196, 10, 10);
     text-shadow: 1px 1px 3px black;
 }
 .slogan{
@@ -38,16 +37,16 @@ h1{
 .nav-link:hover{
     transform: scale(1.3);
     cursor: pointer;
-    color: #dc3545;
+    color: rgb(196, 10, 10);
 }
 .dropdown-menu{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 i{
-    color: #dc3545;
+    color: rgb(196, 10, 10);
 }
 .dropdown-item:hover{
-    background-color: #dc3545;
+    background-color: rgb(196, 10, 10);
 }
 
 /**************SECTION 1*******************/
@@ -56,5 +55,21 @@ h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 35px;
     text-shadow: 1px 1px 3px black;
-    color: #dc3545;
+    color: rgb(196, 10, 10);
+}
+#ville-prix{
+    margin-top: -20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ville{
+    font-size: 20px;
+}
+.prix{
+    font-weight: bold;
+}
+.col-2{
+    box-shadow: 2px 2px 5px black;
+}
+.col-2:hover{
+    transform: scale(1.1);
 }
