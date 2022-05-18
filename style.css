@@ -1,20 +1,28 @@
 html, body{
     box-sizing: border-box;
-    background-image: url(img/background\ HSH\ 2.png);
+    background-image: url(img/HSH\ background.png);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
-   
 }
 
-/*****************NAV BAR*****************/
-
+/*****************GENERAL*****************/
 h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 70px;
     color: rgb(196, 10, 10);
     text-shadow: 1px 1px 3px black;
 }
+i{
+    color: rgb(196, 10, 10);
+}
+h2{
+    font-size: 35px;
+    text-shadow: 1px 1px 3px black;
+    color: rgb(196, 10, 10);
+    padding-top: 40px;
+}
+
+/*****************NAV BAR*****************/
+
 .slogan{
     font-family: 'Pacifico', cursive;
     font-size: 25px;
@@ -22,38 +30,23 @@ h1{
 }
 
 .nav-link{
-    color:black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
-    text-shadow: 1px 1px 3px rgb(177, 177, 177);
+    text-shadow: 1px 1px rgb(177, 177, 177);
+    color: dimgrey;
 }
-.nav-link:visited{
-    color: black;
-}
-
 .nav-link:hover{
     transform: scale(1.3);
     cursor: pointer;
     color: rgb(196, 10, 10);
 }
-.dropdown-menu{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-i{
-    color: rgb(196, 10, 10);
-}
+
 .dropdown-item:hover{
     background-color: rgb(196, 10, 10);
+    color: whitesmoke;
 }
 
 /**************SECTION 1*******************/
 
-h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 35px;
-    text-shadow: 1px 1px 3px black;
-    color: rgb(196, 10, 10);
-}
 #ville-prix{
     margin-top: -20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -74,7 +67,7 @@ strong{
     font-size: 20px;
 }
 .description{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact,  Arial Narrow Bold, sans-serif;
 }
 
 /**************SECTION 2*******************/
